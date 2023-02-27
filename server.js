@@ -6,7 +6,7 @@ app.use(methodOverride('_method'));
 
 const MongoClient = require('mongodb').MongoClient;
 MongoClient.connect(
-  'mongodb+srv://adminzio:pjo4793@cluster0.ykaqqgg.mongodb.net/?retryWrites=true&w=majority',
+  'mongodb+srv://.ykaqqgg.mongodb.net/?retryWrites=true&w=majority',
   function (err, client) {
     //연결되면 할일 및 에러
     if (err) return console.log(err);
